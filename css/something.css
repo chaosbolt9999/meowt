@@ -50,53 +50,6 @@ a {
 	.sidenav a {font-size: 18px;}
   }
 
-/**.apple {
-	border: 10px black;
-	height: 60px;
-	background-color: #ccddcc;
-	display: flex;
-}
-
-.banana {
-	flex: 4;
-	height: 100%;
-	width: 25%;
-	text-align: center;
-	background-color: #ccddcc;
-}
-
-.banana > img {
-	height: 100%;
-}
-
-.carrot {
-	flex: 3;
-	font-size: 20px;
-	width: 15%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	-webkit-transition: background-color 0.4s;
-       -moz-transition: background-color 0.4s;
-        -ms-transition: background-color 0.4s;
-         -o-transition: background-color 0.4s;
-            transition: background-color 0.4s;
-	background-color: #ccddcc;
-}
-
-.carrot:hover {
-	background-color: #ddeedd;
-}
-
-.baba {
-	padding-bottom: 0px;
-}
-
-.baba:hover .ppl {
-	display: block;
-	opacity: 1;
-}
-**/
 .ppl {
 	position: relative;
 	top: 16px;
