@@ -38,14 +38,14 @@ input[type=text], input[type=email], textarea {
 .qcircle {
 	width: 4%;
 	height: 0;
-    padding-bottom: 4%;
-    padding-right: 4%;
-    border-radius: 100px 0 0 0;
+    	padding-bottom: 4%;
+    	padding-right: 4%;
+   	border-radius: 100px 0 0 0;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	background-color: #8EE4AF;
-	transition: width 2s, height 2s;
+	transition: width 1s, height 2s;
   	overflow: hidden;
 }
 
@@ -62,7 +62,7 @@ input[type=text], input[type=email], textarea {
 .sources { 
   	padding: 80px;
   	position: relative;
-	font-size: 20px;
+	font-size: 30px;
 	text-align: justify;
 	color: #05386B;
 	overflow: hidden;
