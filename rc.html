@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> RC's page </title>
+	<meta charset="utf-8" />
+	<meta name="description" content="RC's experiences with stress"/>
+	<meta name="keyword" content="HTML, CSS, JS, form, stress" />
+	<meta name="author" content="RC Catolico" />
+	<script type="text/javascript" src="./javascript/sans.js"></script>
+	<script type="text/javascript" src="./javascript/sidebar.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/something.css">
+  	<link rel="stylesheet" type="text/css" href="./css/skeleton.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="./index.html">Stress</a>
+		<a href="./causes.html">Causes</a>
+		<a href="#" class="secret">Experiences</a>
+		<a href="./dylan.html">&emsp;Dylan</a>
+		<a href="./jelo.html">&emsp;Jelo</a>
+		<a href="./rc.html">&emsp;RC</a>
+		<a href="./solutions.html">Solutions</a>
+	</div>
+	  <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="images/cat logo.png" width="60px" height="60px"></span>
+	<header>
+		RC's page
+	</header>
+	<div class="stuff">
+	<content>
+		<!--Fill in your stuff here!-->
+	</content>
+	<aside>
+	What experiences do you have with stress? Tell us below.
+	<form>
+		<fieldset id="bye">
+			Name/pseudonym<br>
+			<input type="text" id="name" required><br><br>
+			Email address<br>
+			<input type="email" id="email" required><br><br>
+			Stress experiences<br>
+			<textarea rows="8" cols="50" id="exp" placeholder="Please share your feelings and experiences about stress here. We assure you that your identity will remain anonymous, your email will only be used for our team to contact you, and that anything you type above will remain confidential."></textarea><br><br>
+			<button id="boop" type="button" onclick="contactUs()">Submit!</button>
+		</fieldset>
+	</form>
+	<div id="beep" class="message">
+		<br>Thank you for sharing your thoughts!<br>
+	</div>
+	</aside>
+	</div>
+</body>
+</html>
