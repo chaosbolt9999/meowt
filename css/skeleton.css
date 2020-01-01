@@ -1,0 +1,236 @@
+* {
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.apple {
+	border: 10px black;
+	height: 60px;
+	background-color: #ccddcc;
+	display: flex;
+}
+
+.banana {
+	flex: 4;
+	height: 100%;
+	width: 25%;
+	text-align: center;
+	background-color: #ccddcc;
+}
+
+.banana > img {
+	height: 100%;
+}
+
+.carrot {
+	flex: 3;
+	font-size: 20px;
+	width: 15%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	-webkit-transition: background-color 0.4s;
+       -moz-transition: background-color 0.4s;
+        -ms-transition: background-color 0.4s;
+         -o-transition: background-color 0.4s;
+            transition: background-color 0.4s;
+	background-color: #ccddcc;
+}
+
+.carrot:hover {
+	background-color: #ddeedd;
+}
+
+.baba {
+	padding-bottom: 0px;
+}
+
+.baba:hover .ppl {
+	display: block;
+	opacity: 1;
+}
+
+.ppl {
+	position: relative;
+	top: 16px;
+	font-size: inherit;
+	padding: inherit;
+	padding-bottom: 20px;
+	width: 100%;
+	text-align: center;
+	background-color: #abffb7;
+	opacity: 0;
+	display: none;
+	-webkit-transition: opacity 0.4s ease-in;
+       -moz-transition: opacity 0.4s ease-in;
+        -ms-transition: opacity 0.4s ease-in;
+         -o-transition: opacity 0.4s ease-in;
+            transition: opacity 0.4s ease-in;
+	-webkit-transition: background-color 0.4s;
+       -moz-transition: background-color 0.4s;
+        -ms-transition: background-color 0.4s;
+         -o-transition: background-color 0.4s;
+            transition: background-color 0.4s;
+}
+
+.ppl:hover {
+	background-color: #bcffc8;
+}
+
+header {
+	height: 200px;
+	background-color: #0000c4;
+	color: #ffffff;
+	text-align: center;
+	font-size: 150px;
+	font-family: "Verdana", Geneva, sans-serif;
+	line-height: 200px;
+	font-weight: bolder;
+}
+
+.stuff {
+	width: 100%;
+	display: flex;
+	height: auto;
+}
+
+aside {
+	padding: 30px;
+	float: right;
+	background-color: #dddddd;
+	font-size: 20px;
+	flex: 3;
+}
+
+content {
+	background-color: #9fff94;
+	padding: 30px;
+	float: left;
+	font-size: 20px;
+	flex: 7;
+}
+
+@media screen and (max-width: 700px) {
+	.apple {
+		height: auto;
+		display: block;
+	}
+	.banana {
+		width: 100%;
+		height: auto;
+	}
+	.carrot {
+		float: none;
+		width: 100%;
+		font-size: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		background-color: #ccddcc;
+		transition: background-color 0.4s;
+	}
+	.carrot:hover {
+		background-color: #ddeedd;
+	}
+	.stuff {
+		display: block;
+	}
+
+	aside {
+		flex: none;
+		width: 100%;
+	}
+
+	content {
+		flex: none;
+		width: 100%;
+	}
+	.ppl {
+		top: 20px;
+	}
+}
+
+.box {
+	display: none;
+	margin: 4px;
+	padding: 2px;
+	border: 1px solid black;
+	background-color: #cccccc;
+	width: 80%;
+	font-size: 12px;
+}
+
+.bestfriend {
+	display: block;
+}
+
+.beetlejuice {
+	display: none;
+}
+
+.message {
+	display: none;
+}
+
+.winning {
+	background-color: yellow;
+}
+
+fieldset {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+input[type=text], textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.qcircle {
+	width: 4%;
+	height: 0;
+    padding-bottom: 4%;
+    padding-right: 4%;
+    border-radius: 100px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #8EE4AF;
+	transition: width 2s, height 2s;
+  	overflow: hidden;
+}
+
+.qcircle:hover {
+	width: 70vw;
+	height: 70vh;
+}
+  
+.qcircle:hover .sources {
+	transition-delay: 500ms;
+	display: block;
+}
+
+.sources { 
+  	padding: 80px;
+  	position: relative;
+	font-size: 20px;
+	text-align: justify;
+	color: #05386B;
+	overflow: hidden;
+	text-decoration: none;
+  	display: none;
+}
+
+ul a {
+	list-style-type: square;
+}
+
+ul li { 
+	font-size: 15px;
+}
