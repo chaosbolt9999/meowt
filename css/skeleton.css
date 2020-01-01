@@ -30,7 +30,7 @@ fieldset {
 	padding: 10px;
 }
 
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
