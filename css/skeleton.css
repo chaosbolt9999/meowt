@@ -34,7 +34,7 @@ input[type=text], input[type=email], textarea {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
+/**
 .qcircle {
 	width: 4%;
 	height: 0;
@@ -76,4 +76,28 @@ ul a {
 
 ul li { 
 	font-size: 15px;
+}
+**/
+
+aside {
+	counter-reset: booplist;	
+}
+
+a[class="apaformat"] {
+	counter-increment: booplist;
+	text-decoration: none;
+	color: inherit;
+	cursor: default;
+}
+
+a[class="apaformat"]::after {
+	content: '[' + counter(booplist) + ']'
+	vertical-align: super;
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a[class="apaformat"]:target {
+	background-color: yellow;
 }
