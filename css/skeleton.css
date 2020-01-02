@@ -87,6 +87,7 @@ a[class="apaformat"] {
 	counter-increment: booplist;
 	text-decoration: none;
 	color: black;
+	outline: none;
 	cursor: default;
 }
 
