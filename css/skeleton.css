@@ -97,6 +97,6 @@ a[class="apaformat"]::after {
 	text-decoration: underline;
 	cursor: pointer;
 }
-li :target {
+ol :target {
 	color: purple;
 }
