@@ -154,12 +154,21 @@ content {
 	}
 }
 
-img[alt="hamster"], img[alt="stressedout"] {
+img[alt="hamster"] {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 10%;
 	padding-right: 10%;
 	width: 80%;
+	height: auto;
+}
+
+img[alt="stressedout"] {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20%;
+	padding-right: 20%;
+	width: 60%;
 	height: auto;
 }
 
