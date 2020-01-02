@@ -154,6 +154,13 @@ content {
 	}
 }
 
+img {
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 80%;
+	height: auto;
+}
+
 /*for back to top and back to menu button*/
 .container {
 	float: right;
