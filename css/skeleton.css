@@ -91,7 +91,7 @@ a[class="apaformat"] {
 }
 
 a[class="apaformat"]::after {
-	content: '[' + counter(booplist) + ']'
+	content: '[' + counter(booplist) + ']';
 	vertical-align: super;
 	color: blue;
 	text-decoration: underline;
