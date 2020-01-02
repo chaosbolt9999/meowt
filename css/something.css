@@ -154,7 +154,7 @@ content {
 	}
 }
 
-img[alt="hamster"] {
+img[alt="hamster"], img[alt="stressedout"] {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 10%;
