@@ -99,5 +99,5 @@ a[class="apaformat"]::after {
 	cursor: pointer;
 }
 ol :target {
-	color: orange;
+	color: #d18100;
 }
