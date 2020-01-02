@@ -79,14 +79,14 @@ ul li {
 }
 **/
 
-aside {
+body {
 	counter-reset: booplist;	
 }
 
 a[class="apaformat"] {
 	counter-increment: booplist;
 	text-decoration: none;
-	color: inherit;
+	color: black;
 	cursor: default;
 }
 
