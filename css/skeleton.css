@@ -99,5 +99,5 @@ a[class="apaformat"]::after {
 }
 
 a[class="apaformat"]:target {
-	background-color: yellow;
+	color: purple;
 }
