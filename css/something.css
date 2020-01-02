@@ -163,7 +163,7 @@ img[alt="hamster"] {
 	height: auto;
 }
 
-img[alt="stressedout"] {
+img[alt="stressedout"], img[alt="teenstress"] {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 20%;
