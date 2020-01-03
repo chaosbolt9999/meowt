@@ -12,7 +12,7 @@ function typeWriter() {
   }
 if (i == txt.length) {
 for (j = 0; j < x.length; j++) {
-  x[j.style.backgroundColor = "white"
+  x[j].style.backgroundColor = "white"
 }
 }
 }
