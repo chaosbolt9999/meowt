@@ -235,3 +235,22 @@ fieldset {
   .submitbtn:hover {
 	  background-color: gray;
   }
+
+.meowt {
+	height:100px; 
+	width:100%; 
+	top: 0; 
+	background-color: turquoise; 
+	position: sticky; 
+	text-align: center;
+}
+
+img[src="./images/cat logo.png"] {
+	position: relative;
+	top: 20px;
+}
+
+.whitething {
+	font-size: 30px;
+	cursor: pointer;
+}
