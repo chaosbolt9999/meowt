@@ -9,5 +9,8 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+  if (i == txt.length) {
+  document.getElementById("yes").style.background = "white";
+	}
 }
 
