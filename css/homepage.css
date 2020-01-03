@@ -4,7 +4,7 @@ body {
     height: 100%;
     margin-left: 10px;
     background-color: black;
-    background-image: url('./images/homepage.png');
+    background-image: url('../images/homepage.png');
     background-size: 70%;
     background-attachment: fixed;
     background-repeat: no-repeat;
