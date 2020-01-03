@@ -28,7 +28,11 @@ fieldset {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 10px;
-}
+	background-color: #d9d9d9;
+	border: solid;
+	border-color: #b5b3b3;
+	outline: none;
+  }
 
 input[type=text], input[type=email], textarea {
 	margin-top: 10px;
@@ -100,4 +104,21 @@ a[class="apaformat"]::after {
 }
 ol :target {
 	color: #d18100;
+}
+
+.stylebtn {
+	padding: 15px 30px;
+	background-color: white;
+	font-family: Montserrat;
+	font-size: 15px;
+	border: none;
+	outline: none;
+}
+	
+.stylebtn:hover {
+	background-color: grey;
+}
+
+.yes {
+	text-align: center;
 }
