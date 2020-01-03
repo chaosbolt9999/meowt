@@ -216,3 +216,21 @@ img[alt="stressedout"], img[alt="teenstress"] {
   .list:hover {
 	  color: #3962b3;
   }
+fieldset {
+	background-color: #d9d9d9;
+	border: solid;
+	border-color: #b5b3b3;
+	outline: none;
+  }
+
+  .submitbtn {
+	  font-size: 15px;
+	  font-family: Montserrat;
+	  padding: 5px 15px;
+	  background-color: white;
+	  color: black;
+  }
+
+  .submitbtn:hover {
+	  background-color: gray;
+  }
