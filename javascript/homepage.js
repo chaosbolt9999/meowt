@@ -12,7 +12,7 @@ function typeWriter() {
   }
 if (i == txt.length) {
 for (j = 0; j < x.length; j++) {
-  document.getElementsByClassName("button").style.background = "white";
+  x[j.style.backgroundColor = "white"
 }
 }
 }
