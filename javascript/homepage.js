@@ -10,7 +10,7 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
   if (i == txt.length) {
-  document.getElementById("yes").style.background = "white";
+  document.getElementByClass("button").style.background = "white";
 	}
 }
 
