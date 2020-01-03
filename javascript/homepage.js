@@ -1,6 +1,7 @@
 var i = 0;
 var txt = 'Stress. A common feeling of being overwhelmed, worried, or run-downed. Everyone deals with it, whether it be because of school, work, family, relationships, and many others. But now, we focus more on the stress that we students all deal with.';
-
+var x = document.getElementsByClassName("button");
+var j;
 var speed = 50;
 
 function typeWriter() {
@@ -9,8 +10,10 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
-  if (i == txt.length) {
+if (i == txt.length) {
+for (j = 0; j < x.length; j++) {
   document.getElementsByClassName("button").style.background = "white";
-	}
+}
+}
 }
 
