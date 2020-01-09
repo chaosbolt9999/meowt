@@ -57,8 +57,15 @@ var winner = function(arr) {
 		console.log(newArr[j][1]);
 	}
 	console.log("Sorted! Biggest element is " + newArr[0][0] + "\n");
-	while(newArr[0][0]!=newArr[newArr.length-1][0]) {
-		newArr.pop();
+	if(newArr[0][0]<newArr[arr.length - 1][0]) {
+		while(newArr[0][0]!=newArr[newArr.length-1][0]) {
+			newArr.shift();
+		}
+	}
+	else {
+		while(newArr[0][0]!=newArr[newArr.length-1][0]) {
+			newArr.pop();
+		}
 	}
 	brandNewArr.push(newArr[0][0]);
 	for(let i=0; i<newArr.length; i++) {
