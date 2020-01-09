@@ -245,3 +245,9 @@ img[src="./images/cat logo.png"] {
   position: absolute;
   opacity: 0.8;
 }
+
+.pics {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
