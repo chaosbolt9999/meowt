@@ -9,10 +9,10 @@ var updatePoll = function() {
 	for(i=1; i<=6; i++) {
 		if(document.getElementById(i.toString()).checked == true && i<6) {
 			arr[i-1]++;
-			i+=7;
+			i=7;
 		}
 		console.log("I'm here!");
-		if(i==6) {
+		if(i===6) {
 			window.alert("Pick one! Why aren't you picking one??");
 			isSensible=false;
 		}
