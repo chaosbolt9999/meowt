@@ -242,4 +242,6 @@ img[src="./images/cat logo.png"] {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
+  position: absolute;
+  opacity: 0.8;
 }
