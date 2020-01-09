@@ -11,14 +11,16 @@ var updatePoll = function() {
 			if(document.getElementById(i.toString()).checked == true) {
 				arr[i-1]++;
 				i=777;
+				console.log(i + " good");
 			}
+			console.log(i + " bad");
 		}
 		if(i==6) {
 			window.alert("Pick one! Why aren't you picking one??");
 			isSensible=false;
+			console.log("i'm breaking in");
 			break;
 		}
-		console.log("I'm here!")
 	}
 	if(isSensible==true) {
 		console.log("I'm here!");
