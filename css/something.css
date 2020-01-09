@@ -141,11 +141,12 @@ content {
 	.stuff {
 		display: block;
 	}
-
+	header {
+		height: auto;
+	}
 	aside {
 		flex: none;
 	}
-
 	content {
 		flex: none;
 	}
