@@ -8,16 +8,16 @@
 	font-size: 12px;
 }
 
-.bestfriend {
-	display: block;
-}
-
 .beetlejuice {
 	display: none;
 }
 
 .message {
 	display: none;
+}
+
+.bestfriend {
+	display: block;
 }
 
 .winning {
