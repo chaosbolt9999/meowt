@@ -6,13 +6,13 @@ var updatePoll = function() {
 	var arr=[Number(63), Number(17), Number(9), Number(4), Number(0)];
 	var stressors=["Academics", "Family issues", "Social issues", "Overall well-being", "Others"];
 	console.log("I'm here!");
-	for(i=1; i<=5; i++) {
-		if(document.getElementById(i.toString()).checked == true) {
+	for(i=1; i<=6; i++) {
+		if(document.getElementById(i.toString()).checked == true && i<6) {
 			arr[i-1]++;
 			i+=7;
 		}
 		console.log("I'm here!");
-		if(i==5) {
+		if(i==6) {
 			window.alert("Pick one! Why aren't you picking one??");
 			isSensible=false;
 		}
