@@ -7,15 +7,17 @@ var updatePoll = function() {
 	var stressors=["Academics", "Family issues", "Social issues", "Overall well-being", "Others"];
 	console.log("I'm here!");
 	for(i=1; i<=6; i++) {
-		if(document.getElementById(i.toString()).checked == true && i<6) {
-			arr[i-1]++;
-			i=7;
+		if(i<6) {
+			if(document.getElementById(i.toString()).checked == true && i<6) {
+				arr[i-1]++;
+				i=777;
+			}
 		}
-		console.log("I'm here!");
-		if(i===6) {
+		else {
 			window.alert("Pick one! Why aren't you picking one??");
 			isSensible=false;
 		}
+		console.log("I'm here!")
 	}
 	if(isSensible==true) {
 		console.log("I'm here!");
