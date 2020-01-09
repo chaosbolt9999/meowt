@@ -79,7 +79,7 @@ a {
 }
 
 header {
-	height: 200px;
+	height: auto;
 	background-color: #379683;
 	color: #ffffff;
 	text-align: center;
@@ -117,32 +117,8 @@ content {
 }
 
 @media screen and (max-width: 700px) {
-	.apple {
-		height: auto;
-		display: block;
-	}
-	.banana {
-		width: 100%;
-		height: auto;
-	}
-	.carrot {
-		float: none;
-		width: 100%;
-		font-size: 20px;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		text-align: center;
-		background-color: #ccddcc;
-		transition: background-color 0.4s;
-	}
-	.carrot:hover {
-		background-color: #ddeedd;
-	}
 	.stuff {
 		display: block;
-	}
-	header {
-		height: auto;
 	}
 	aside {
 		flex: none;
