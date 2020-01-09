@@ -234,3 +234,11 @@ img[src="./images/cat logo.png"] {
 .about {
 	text-align: justify;
 }
+.sources{visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+}
