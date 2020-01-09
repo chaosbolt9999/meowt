@@ -6,14 +6,14 @@ var updatePoll = function() {
 	var arr=[Number(63), Number(17), Number(9), Number(4), Number(0)];
 	var stressors=["Academics", "Family issues", "Social issues", "Overall well-being", "Others"];
 	console.log("I'm here!");
-	for(i=1; i<=6; i++) {
+	for(i=1; i>0; i++) {
 		if(i<6) {
-			if(document.getElementById(i.toString()).checked == true && i<6) {
+			if(document.getElementById(i.toString()).checked == true) {
 				arr[i-1]++;
 				i=777;
 			}
 		}
-		else {
+		if(i==6) {
 			window.alert("Pick one! Why aren't you picking one??");
 			isSensible=false;
 		}
