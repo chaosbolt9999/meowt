@@ -6,7 +6,7 @@ var updatePoll = function() {
 	var arr=[Number(63), Number(17), Number(9), Number(4), Number(0)];
 	var stressors=["Academics", "Family issues", "Social issues", "Overall well-being", "Others"];
 	console.log("I'm here!");
-	for(i=1; i>0; i++) {
+	for(i=Number(1); i<Number(7); i++) {
 		if(i<6) {
 			if(document.getElementById(i.toString()).checked == true) {
 				arr[i-1]++;
