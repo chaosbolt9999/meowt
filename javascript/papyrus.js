@@ -16,6 +16,7 @@ var updatePoll = function() {
 		if(i==6) {
 			window.alert("Pick one! Why aren't you picking one??");
 			isSensible=false;
+			break;
 		}
 		console.log("I'm here!")
 	}
