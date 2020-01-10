@@ -234,6 +234,7 @@ fieldset {
 	background-color: turquoise; 
 	position: sticky; 
 	text-align: center;
+	z-index: 1337;
 }
 
 img[src="./images/cat logo.png"] {
