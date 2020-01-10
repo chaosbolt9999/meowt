@@ -257,6 +257,7 @@ img[src="./images/cat logo.png"] {
   	position: absolute;
   	opacity: 0;
   	animation-fill-mode: forwards;
+	z-index: 793;
 }
 
 @keyframes spaghettiUp {
