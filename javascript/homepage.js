@@ -14,6 +14,7 @@ if (i == txt.length) {
 for (j = 0; j < x.length; j++) {
   x[j].style.display = "block";
   x[j].style.animation = "spaghettiUp 0.3s ease-in-out";
+  x[j].style.opacity = 1;
 }
 }
 }
