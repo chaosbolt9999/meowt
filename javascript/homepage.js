@@ -13,6 +13,7 @@ function typeWriter() {
 if (i == txt.length) {
 for (j = 0; j < x.length; j++) {
   x[j].style.display = "block";
+  x[j].style.animation = "spaghettiUp 0.3s ease-in-out";
 }
 }
 }
