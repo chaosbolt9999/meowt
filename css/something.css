@@ -43,6 +43,11 @@ img {
 	background-color: #3a4d70;
 	color: #f1f1f1;
   }
+
+  .sidenav a[class="secret"]:hover {
+	background-color: inherit;
+	color: #6d86b5;
+  }
   
   .sidenav .closebtn {
 	position: absolute;
