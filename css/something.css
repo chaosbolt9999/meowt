@@ -49,6 +49,7 @@ img {
   .sidenav a[class="secret"]:hover {
 	background-color: inherit;
 	color: #6d86b5;
+	cursor: default;
   }
   
   .sidenav .closebtn {
