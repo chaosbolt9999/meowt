@@ -258,6 +258,24 @@ img[src="./images/cat logo.png"] {
   opacity: 0.8;
 }
 
+@keyframes spaghettiUp {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 0.8;
+	}
+}
+
+@keyframes spaghettiDown {
+	from {
+		opacity: 0.8;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
 .pics {
 	display: block;
 	margin-left: auto;
