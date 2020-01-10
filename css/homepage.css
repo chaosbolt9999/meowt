@@ -34,9 +34,10 @@ body {
 }
 
 .button {
+    display: none;
     text-decoration: none;
     color: black;
-    background-color: black;
+    background-color: white;
     padding: 15px 30px;
     font-weight: normal;
     text-transform: uppercase;
