@@ -248,15 +248,15 @@ img[src="./images/cat logo.png"] {
 	text-align: justify;
 }
 .sources {
-  display: none;
-  width: 300px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  position: absolute;
-  opacity: 0.8;
+  	width: 300px;
+  	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+  	border-radius: 6px;
+  	position: absolute;
+  	opacity: 0;
+  	animation-fill-mode: forwards;
 }
 
 @keyframes spaghettiUp {
