@@ -230,6 +230,7 @@ fieldset {
 img[src="./images/cat logo.png"] {
 	position: relative;
 	top: 20px;
+	display: inline;
 }
 
 .whitething {
