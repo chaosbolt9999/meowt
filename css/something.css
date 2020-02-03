@@ -18,53 +18,6 @@ img {
 	max-width: 100%;
 }
 
-.sidenav {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 999;
-	top: 0;
-	left: 0;
-	background-color: #05386B;
-	overflow-x: hidden;
-	transition: 0.5s;
-	padding-top: 60px;
-	text-align: left;
-  }
-  
-  .sidenav a {
-	padding: 10px 10px 10px 32px;
-	text-decoration: none;
-	font-size: 25px;
-	color: #6d86b5;
-	display: block;
-	transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-	background-color: #3a4d70;
-	color: #f1f1f1;
-  }
-
-  .sidenav a[class="secret"]:hover {
-	background-color: inherit;
-	color: #6d86b5;
-	cursor: default;
-  }
-  
-  .sidenav .closebtn {
-	position: absolute;
-	top: 0;
-	right: 25px;
-	font-size: 36px;
-	margin-left: 50px;
-  }
-  
-  @media screen and (max-height: 450px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
-  }
-
 .ppl {
 	position: relative;
 	top: 16px;
@@ -94,8 +47,8 @@ img {
 
 header {
 	height: auto;
-	background-color: #379683;
-	color: #ffffff;
+	background-color: #FFB997;
+	color: #4A4E65;
 	text-align: center;
 	font-size: 100px;
 	font-family: Montserrat;
@@ -113,16 +66,18 @@ header {
 }
 
 aside {
+	color: white;
 	padding: 30px;
 	float: right;
-	background-color: #dddddd;
 	font-size: 20px;
 	flex: 3;
-	background-color: #EDF5E1;
+	background-color: #F67E7D;
 }
 
 content {
-	background-color: #5CDB95;
+	border-right: 2px dashed white;
+	color: white;
+	background-color: #F67E7D;
 	padding: 30px;
 	float: left;
 	font-size: 20px;
@@ -209,11 +164,12 @@ img[alt="stressedout"], img[alt="teenstress"] {
 	  color: #3962b3;
   }
 fieldset {
-	background-color: #d9d9d9;
+	color: black;
+	background-color: #222222;
 	border: solid;
-	border-color: #b5b3b3;
+	border-color: #999999;
 	outline: none;
-  }
+}
 
   .submitbtn {
 	  font-size: 15px;
@@ -228,10 +184,11 @@ fieldset {
   }
 
 .meowt {
-	height:100px; 
+	white-space: pre;
+	height: auto; 
 	width:100%; 
 	top: 0; 
-	background-color: turquoise; 
+	background-color: #FFB997; 
 	position: sticky; 
 	text-align: center;
 	z-index: 1337;
@@ -287,3 +244,17 @@ img[src="./images/cat logo.png"] {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+	.footer {
+		width: 100%;
+		display: flex;
+	}
+	.footer1, .footer2, .footer3 {
+		font-size: 20px;
+		color: white;
+		background-color: darkblue;
+		flex: 1;
+		padding: 30px;
+		padding-left: 60px;
+	}
