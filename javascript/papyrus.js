@@ -1,11 +1,34 @@
 var updatePoll = function() {
 	console.log("YAY I GOT CALLED\n");
 	console.log("Are you calling me??\n");
-	var i;
+	var i, w = JSON.parse(localStorage.getItem("winner"));
 	var isSensible=true;
 	var arr=[Number(63), Number(17), Number(9), Number(4), Number(0)];
 	var stressors=["Academics", "Family issues", "Social issues", "Overall well-being", "Others"];
 	console.log("I'm here!");
+	if(w!=null) {
+		console.log("I'm here!");
+		let sum=0;
+		for(i=0; i<5; i++) sum+=arr[i];
+		for(i=1; i<=5; i++) {
+			var elem = (i*11).toString();
+			document.getElementById(elem).innerHTML = changePercent(arr[i-1], sum)
+		}
+		console.log("I'm here!");
+		var boxes = document.getElementsByClassName("box")
+		for(i=0; i<5; i++) {
+			boxes[i].className += " bestfriend";
+		}
+		console.log("I'm here!");
+		document.getElementById("total").innerHTML = sum;
+		for(i=1; i<w.length; i++) {
+			document.getElementById("winner").innerHTML += stressors[w[i]];
+		}
+		document.getElementById("boop").className += " beetlejuice";
+		document.getElementById("beep").className += " bestfriend";
+		localStorage.setItem("winner", w);
+		return;	
+	}
 	for(i=Number(1); i<Number(7); i++) {
 		if(i<6) {
 			if(document.getElementById(i.toString()).checked == true) {
@@ -36,13 +59,14 @@ var updatePoll = function() {
 			boxes[i].className += " bestfriend";
 		}
 		console.log("I'm here!");
-		var winners = winner(arr);
+		winners = winner(arr);
 		document.getElementById("total").innerHTML = sum;
 		for(i=1; i<winners.length; i++) {
 			document.getElementById("winner").innerHTML += stressors[winners[i]];
 		}
 		document.getElementById("boop").className += " beetlejuice";
 		document.getElementById("beep").className += " bestfriend";
+		localStorage.setItem("winner", JSON.stringify(winners));
 	}
 	else console.log("not sensible");
 };
