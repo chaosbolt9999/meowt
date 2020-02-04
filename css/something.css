@@ -59,6 +59,11 @@ header {
 	text-transform: uppercase;
 }
 
+h1 {
+	color: #833B61;
+	text-align: center;
+}
+
 .stuff {
 	width: 100%;
 	display: flex;
