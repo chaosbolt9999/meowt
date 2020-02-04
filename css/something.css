@@ -187,18 +187,6 @@ fieldset {
 	outline: none;
 }
 
-  .submitbtn {
-	  font-size: 15px;
-	  font-family: Montserrat;
-	  padding: 5px 15px;
-	  background-color: white;
-	  color: black;
-  }
-
-  .submitbtn:hover {
-	  background-color: gray;
-  }
-
 .meowt {
 	white-space: pre;
 	height: auto; 
