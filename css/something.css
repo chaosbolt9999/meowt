@@ -252,8 +252,8 @@ img[src="./images/cat logo.png"] {
 	}
 	.footer1, .footer2, .footer3 {
 		font-size: 20px;
-		color: white;
-		background-color: darkblue;
+		color: #FFD4ED;
+		background-color: #0B022D;
 		flex: 1;
 		padding: 30px;
 		padding-left: 60px;
