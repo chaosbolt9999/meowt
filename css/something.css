@@ -216,12 +216,20 @@ fieldset {
 }
 
 .meowt {
-	white-space: pre;
 	height: auto; 
 	width:100%; 
 	top: 0; 
 	background-color: #FFB997; 
 	position: sticky; 
+	text-align: center;
+	z-index: 1337;
+}
+
+.meowt2 {
+	height: auto; 
+	width:100%; 
+	top: 0; 
+	background-color: #FFB997;
 	text-align: center;
 	z-index: 1337;
 }
