@@ -2,6 +2,7 @@ var updatePoll = function() {
 	console.log("YAY I GOT CALLED\n");
 	console.log("Are you calling me??\n");
 	var i, w = JSON.parse(localStorage.getItem("winner"));
+	console.log(w);
 	var isSensible=true;
 	var arr=[Number(63), Number(17), Number(9), Number(4), Number(0)];
 	var stressors=["Academics", "Family issues", "Social issues", "Overall well-being", "Others"];
