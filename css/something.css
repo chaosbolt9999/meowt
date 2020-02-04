@@ -61,10 +61,10 @@ img {
 	vertical-align:center;	
 }
 #experiences{
-	height:0px;
+	height:57px;
 	width:100%;
 	
-	display: flex;
+	display: hidden;
   	flex-direction: column;
 	align-items:center;
 	overflow:hidden;
