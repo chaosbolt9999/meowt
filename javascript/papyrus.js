@@ -26,7 +26,6 @@ var updatePoll = function() {
 		}
 		document.getElementById("boop").className += " beetlejuice";
 		document.getElementById("beep").className += " bestfriend";
-		localStorage.setItem("winner", w);
 		return;	
 	}
 	for(i=Number(1); i<Number(7); i++) {
