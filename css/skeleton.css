@@ -107,16 +107,7 @@ ol :target {
 }
 
 .stylebtn {
-	padding: 15px 30px;
-	background-color: white;
-	font-family: Montserrat;
-	font-size: 15px;
-	border: none;
-	outline: none;
-}
-	
-.stylebtn:hover {
-	background-color: grey;
+	margin-right: 20px;
 }
 
 .yes {
