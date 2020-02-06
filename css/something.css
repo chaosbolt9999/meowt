@@ -103,6 +103,13 @@ h1 {
 	line-height: 200%;
 }
 
+.contentbody {
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	line-height: 1.6;
+}
+
 .stuff {
 	width: 100%;
 	display: flex;
