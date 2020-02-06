@@ -20,7 +20,7 @@ textarea, fieldset{
 .submit {
     border-style: none;
     border-radius: 15px;
-    padding: 7px;
+    padding: 7px 15px;
     background-color: #E09FAD;
     color: #833B61;
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;   
