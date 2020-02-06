@@ -298,7 +298,7 @@ img[src="./images/cat logo.png"] {
 		display: flex;
 	}
 	.footer1, .footer2, .footer3 {
-		font-size: 20px;
+		font-size: 15px;
 		color: #FFD4ED;
 		background-color: #0B022D;
 		flex: 1;
@@ -306,7 +306,7 @@ img[src="./images/cat logo.png"] {
 		padding-left: 60px;
 	}
 
-h1 .footer {
+.footer > h1 {
 	font-size: 30px;
 	color: #FFD4ED;
 }
