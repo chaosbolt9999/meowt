@@ -43,8 +43,10 @@ body {
     text-transform: uppercase;
     border-width: 3px;
     border-style: solid;
+    border-radius: 10px;
     border-color: black;
     transition: all 0.3s ease-in-out;
+    font-weight: bold;
 }
   
   .button:hover {
@@ -80,9 +82,11 @@ button {
     background-color: white;
     color: black;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: bold;
     border-style: solid;
     transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+
 }
 
 button:hover {
