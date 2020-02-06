@@ -17,6 +17,10 @@ textarea, fieldset{
     margin-top: 10px;
 }
 
+fieldset {
+	text-align: justify:
+}
+
 .submit {
     border-style: none;
     border-radius: 15px;
