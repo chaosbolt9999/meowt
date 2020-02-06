@@ -203,6 +203,14 @@ img[alt="stressedout"], img[alt="teenstress"] {
 	  font-size: 28px;
   }
 
+ .blogsubtitle {
+	 text-align: center;
+	 font-style: italic;
+	 font-size: 15px;
+	 
+}
+	 
+	 
   .articlelist {
 	list-style-type: square;
   }
