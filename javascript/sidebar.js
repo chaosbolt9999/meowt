@@ -9,5 +9,5 @@ function showexperiences() {
 	document.getElementById("experiences").style.display = "flex";
 }
  function hideexperiences() {
-	document.getElementById("experiences").style.display = "hidden";
+	document.getElementById("experiences").style.display = "none";
 }
