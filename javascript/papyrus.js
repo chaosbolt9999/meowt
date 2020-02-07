@@ -1,4 +1,4 @@
-var updatePoll = function() {
+var hasVoted = function() {
 	console.log("YAY I GOT CALLED\n");
 	console.log("Are you calling me??\n");
 	var i, w = JSON.parse(localStorage.getItem("winner"));
@@ -11,6 +11,7 @@ var updatePoll = function() {
 		console.log("I'm here!");
 		let sum=0;
 		for(i=0; i<5; i++) sum+=arr[i];
+		sum++;
 		for(i=1; i<=5; i++) {
 			var elem = (i*11).toString();
 			document.getElementById(elem).innerHTML = changePercent(arr[i-1], sum)
@@ -30,6 +31,15 @@ var updatePoll = function() {
 		document.getElementById("beep").className += " bestfriend";
 		return;	
 	}
+}
+var updatePoll = function() {
+	console.log("YAY I GOT CALLED\n");
+	console.log("Are you calling me??\n");
+	var i;
+	var isSensible=true;
+	var arr=[Number(63), Number(17), Number(9), Number(4), Number(0)];
+	var stressors=["Academics", "Family issues", "Social issues", "Overall well-being", "Others"];
+	console.log("I'm here!");
 	for(i=Number(1); i<Number(7); i++) {
 		if(i<6) {
 			if(document.getElementById(i.toString()).checked == true) {
