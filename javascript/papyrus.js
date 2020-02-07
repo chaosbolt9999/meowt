@@ -14,7 +14,9 @@ var hasVoted = function() {
 		sum++;
 		for(i=1; i<=5; i++) {
 			var elem = (i*11).toString();
-			document.getElementById(elem).innerHTML = changePercent(arr[i-1], sum)
+			var oops = i.toString();
+			document.getElementById(elem).innerHTML = changePercent(arr[i-1], sum);
+			document.getElementById(oops).style.display = "none";
 		}
 		console.log("I'm here!");
 		var boxes = document.getElementsByClassName("box")
