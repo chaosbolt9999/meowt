@@ -20,6 +20,7 @@ var updatePoll = function() {
 		for(i=0; i<5; i++) {
 			boxes[i].className += " bestfriend";
 		}
+		let winners = winner(w);
 		console.log("I'm here!");
 		document.getElementById("total").innerHTML = sum;
 		for(i=1; i<w.length; i++) {
@@ -59,7 +60,7 @@ var updatePoll = function() {
 			boxes[i].className += " bestfriend";
 		}
 		console.log("I'm here!");
-		winners = winner(arr);
+		let winners = winner(arr);
 		document.getElementById("total").innerHTML = sum;
 		for(i=1; i<winners.length; i++) {
 			document.getElementById("winner").innerHTML += stressors[winners[i]];
