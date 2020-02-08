@@ -6,11 +6,6 @@ body {
 	background-color: #16497C;
 }
 
-a {
-	text-decoration: none;
-	color: inherit;
-}
-
 img {
 	display: block;
 	margin-left: auto;
@@ -316,4 +311,9 @@ img[src="./images/cat logo.png"] {
 	.ppl {
 		top: 20px;
 	}
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
