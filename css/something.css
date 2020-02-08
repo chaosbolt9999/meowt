@@ -137,21 +137,6 @@ content {
 	text-align: justify;
 }
 
-@media screen and (max-width: 700px) {
-	.stuff {
-		display: block;
-	}
-	aside {
-		flex: none;
-	}
-	content {
-		flex: none;
-	}
-	.ppl {
-		top: 20px;
-	}
-}
-
 img[alt="hamster"] {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -231,21 +216,12 @@ fieldset {
 	outline: none;
 }
 
-.meowt {
+.meowt, .meowt2 {
 	height: auto; 
 	width:100%; 
 	top: 0; 
 	background-color: #FFB997; 
 	position: sticky; 
-	text-align: center;
-	z-index: 1337;
-}
-
-.meowt2 {
-	height: auto; 
-	width:100%; 
-	top: 0; 
-	background-color: #FFB997;
 	text-align: center;
 	z-index: 1337;
 }
@@ -302,20 +278,42 @@ img[src="./images/cat logo.png"] {
 }
 
 
-	.footer {
-		width: 100%;
-		display: flex;
-	}
-	.footer1, .footer2, .footer3 {
-		font-size: 15px;
-		color: #FFD4ED;
-		background-color: #0B022D;
-		flex: 1;
-		padding: 30px;
-		padding-left: 60px;
-	}
-
+.footer {
+	width: 100%;
+	display: flex;
+}
+	
+.footer1, .footer2, .footer3 {
+	font-size: 15px;
+	color: #FFD4ED;
+	background-color: #0B022D;
+	flex: 1;
+	padding: 30px;
+	padding-left: 60px;
+}
 
 .backcard {
 	padding: 50px;
+}
+
+
+@media screen and (max-width: 700px) {
+	.stuff {
+		display: block;
+	}
+	aside {
+		flex: none;
+	}
+	content {
+		flex: none;
+	}
+	.footer {
+		display: block;
+	}
+	.footer1, .footer2, .footer3 {
+		flex: none;	
+	}
+	.ppl {
+		top: 20px;
+	}
 }
