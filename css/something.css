@@ -297,7 +297,7 @@ img[src="./images/cat logo.png"] {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 	.stuff {
 		display: block;
 	}
