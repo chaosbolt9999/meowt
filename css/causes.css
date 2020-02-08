@@ -5,13 +5,12 @@
 .stresscard {
   background-color: transparent;
   width: 400px;
-  height: 523px;
+  height: 573px;
   perspective: 1000px;
-  margin-bottom: 30px;
-  float: right;
-  margin-right: 30px;
+  margin: 0 auto;
   border-radius: 10px;
   margin-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .insidecard {
