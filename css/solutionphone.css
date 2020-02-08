@@ -1,0 +1,79 @@
+  .container {
+    position: relative; 
+    width: 100%;
+}
+
+.image {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+.imageOne {
+    z-index: 0;
+}
+.imageTwo {
+     z-index: 1;
+     top: -2px;
+    animation-name: firstnotif;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+.imageThree {
+    z-index: 1;
+    top: -2px;
+    animation-name: secondnotif;
+    animation-duration: 5s;
+    animation-delay: 8s;
+}
+
+.imageFour {
+    z-index: 1;
+    top: -10px;
+    animation-name: thirdnotif;
+    animation-duration: 5s;
+    animation-delay: 14s;
+}
+
+.hide {
+
+ border-color: black;
+ border-width: 10px;
+ width: 500px;
+ height: 90px;
+}
+
+@keyframes firstnotif {
+    0% {top:0px;}
+    10% {top:48px;}
+  25%  {top:48px;}
+  50%  {top:48px;}
+  75%  {top:48px;}
+  90% {top:48px;}
+  100% {top:0px;}
+}
+
+@keyframes secondnotif {
+    0% {top:0px;}
+    10% {top:59px;}
+  25%  {top:59px;}
+  50%  {top:59px;}
+  75%  {top:59px;}
+  80% {top:59px;}
+  100% {top:0px;}
+}
+
+
+@keyframes thirdnotif {
+    0% {top:0px;}
+    10% {top:61px}
+  25%  {top:61px;}
+  50%  {top:61px;}
+  75%  {top:61px;}
+  90% {top:61px;}
+  100% {top:0px;}
+}
+
