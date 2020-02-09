@@ -15,8 +15,12 @@ textarea, fieldset{
 	outline: none;
     font-family: Montserrat;
     margin-top: 10px;
+}
+
+.ad {
 	text-align: justify;
 }
+
 
 .submit {
     border-style: none;
