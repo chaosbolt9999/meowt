@@ -295,6 +295,9 @@ img[src="./images/cat logo.png"] {
 	padding: 50px;
 }
 
+.drive {
+	display: none;	
+}
 
 @media screen and (max-width: 1000px) {
 	.stuff {
@@ -314,6 +317,9 @@ img[src="./images/cat logo.png"] {
 	}
 	.ppl {
 		top: 20px;
+	}
+	.drive {
+		display: inline;
 	}
 }
 
