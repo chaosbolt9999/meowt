@@ -4,6 +4,7 @@ body {
 	font-family: Montserrat;
 	margin: 0;
 	background-color: #16497C;
+	 cursor: url("catcursor.png"), auto;
 }
 
 img {
