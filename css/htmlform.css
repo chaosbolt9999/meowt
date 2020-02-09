@@ -15,10 +15,7 @@ textarea, fieldset{
 	outline: none;
     font-family: Montserrat;
     margin-top: 10px;
-}
-
-fieldset {
-	text-align: justify:
+	text-align: justify;
 }
 
 .submit {
