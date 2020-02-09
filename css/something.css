@@ -156,33 +156,36 @@ img[alt="stressedout"], img[alt="teenstress"] {
 	height: auto;
 	width: auto;
 }
-.topbutton {
-	float: right;
-	position: sticky;
-	right: 0;
-	bottom: 0;
-	font-size: 18px;
-	border: none;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
-	cursor: pointer;
-	padding: 10px 10px;
-	border-radius: 5px;
-	text-decoration: none;
-	text-align: center;
-	font-family: Montserrat;
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#833B61;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 15px;
+  }
+  
+  #myBtn:hover {
+    background-color: #333;
+    cursor: pointer;
   }
 
-  .topbutton:hover {
-	background-color: #555;
+html {
+      scroll-behavior: smooth;
   }
 
-  .subtitle {
-	  font-family: Montserrat;
-	  font-weight: bold;
-	  font-size: 28px;
+  #header {
+      height: 100%;
+      width: 100%;
   }
-
+ 
  .blogsubtitle {
 	 text-align: center;
 	 font-style: italic;
