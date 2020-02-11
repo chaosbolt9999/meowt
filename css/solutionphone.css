@@ -8,26 +8,26 @@
     position: absolute;
     width: 500px;
     height: 500px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin-bottom: 20px;
 }
 
 .imageOne {
-   position: absolute;
-    z-index: 0;
+   position: relative;
+    z-index: 100;
+   bottom: 64px;
 }
 .imageTwo {
-  position: absolute;
-     z-index: 1;
+     z-index: 400;
      top: -2px;
     animation-name: firstnotif;
     animation-duration: 5s;
     animation-delay: 2s;
+     cursor: pointer;
 }
 
 .imageThree {
-  position: absolute;
-    z-index: 1;
+    z-index: 400;
     top: -2px;
     animation-name: secondnotif;
     animation-duration: 5s;
@@ -35,8 +35,7 @@
 }
 
 .imageFour {
-  position: absolute;
-    z-index: 1;
+    z-index: 400;
     top: -10px;
     animation-name: thirdnotif;
     animation-duration: 5s;
@@ -48,37 +47,41 @@
  border-color: black;
  border-width: 10px;
  width: 500px;
- height: 90px;
+ height: 96px;
+ position: relative;
+ top: 0px;
+ z-index: 997;
+ background-color: #F67E7D;
 }
 
 @keyframes firstnotif {
     0% {top:0px;}
-    10% {top:48px;}
-  25%  {top:48px;}
-  50%  {top:48px;}
-  75%  {top:48px;}
-  90% {top:48px;}
+    10% {top:78px;}
+  25%  {top:78px;}
+  50%  {top:78px;}
+  75%  {top:78px;}
+  90% {top:78px;}
   100% {top:0px;}
 }
 
 @keyframes secondnotif {
     0% {top:0px;}
-    10% {top:59px;}
-  25%  {top:59px;}
-  50%  {top:59px;}
-  75%  {top:59px;}
-  80% {top:59px;}
+    10% {top:89px;}
+  25%  {top:89px;}
+  50%  {top:89px;}
+  75%  {top:89px;}
+  80% {top:89px;}
   100% {top:0px;}
 }
 
 
 @keyframes thirdnotif {
     0% {top:0px;}
-    10% {top:61px}
-  25%  {top:61px;}
-  50%  {top:61px;}
-  75%  {top:61px;}
-  90% {top:61px;}
+    10% {top:91px}
+  25%  {top:91px;}
+  50%  {top:91px;}
+  75%  {top:91px;}
+  90% {top:91px;}
   100% {top:0px;}
 }
 
