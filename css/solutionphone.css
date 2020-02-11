@@ -6,16 +6,18 @@
 
 .image {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     border: 1px solid red;
     margin-bottom: 20px;
 }
 
 .imageOne {
+   position: absolute;
     z-index: 0;
 }
 .imageTwo {
+  position: absolute;
      z-index: 1;
      top: -2px;
     animation-name: firstnotif;
@@ -24,6 +26,7 @@
 }
 
 .imageThree {
+  position: absolute;
     z-index: 1;
     top: -2px;
     animation-name: secondnotif;
@@ -32,6 +35,7 @@
 }
 
 .imageFour {
+  position: absolute;
     z-index: 1;
     top: -10px;
     animation-name: thirdnotif;
