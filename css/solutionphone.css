@@ -85,3 +85,7 @@
   100% {top:0px;}
 }
 
+.phoneborder {
+  position: absolute;
+  bottom: 83px;
+}
