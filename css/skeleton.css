@@ -113,6 +113,7 @@ ol :target {
 	font-size: 15px;
 	border-radius: 15px;
 	font-weight: bold;
+	border: none;
 }
 	
 .stylebtn:hover {
