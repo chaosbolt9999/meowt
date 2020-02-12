@@ -2,15 +2,20 @@
   box-sizing: border-box;
 }
 
+.cards1, .cards2 {
+  display: block;
+  text-align: center;
+}
+
 .stresscard {
   background-color: transparent;
   width: 400px;
   height: 573px;
   perspective: 1000px;
-  margin: 0 auto;
   border-radius: 10px;
   margin-bottom: 30px;
   padding-bottom: 50px;
+  display: inline-block;
 }
 
 .insidecard {
