@@ -326,3 +326,8 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+
+#melon {
+	height: 500px;
+	width: 500px;
+}
