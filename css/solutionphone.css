@@ -86,6 +86,7 @@
 }
 
 .phoneborder {
+  z-index: 474474;
   position: absolute;
   bottom: 83px;
 }
