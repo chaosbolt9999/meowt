@@ -20,26 +20,20 @@
 .imageTwo {
      z-index: 400;
      top: -2px;
-    animation-name: firstnotif;
-    animation-duration: 5s;
-    animation-delay: 2s;
+
      cursor: pointer;
 }
 
 .imageThree {
     z-index: 400;
     top: -2px;
-    animation-name: secondnotif;
-    animation-duration: 5s;
-    animation-delay: 8s;
+
 }
 
 .imageFour {
     z-index: 400;
     top: -10px;
-    animation-name: thirdnotif;
-    animation-duration: 5s;
-    animation-delay: 14s;
+
 }
 
 .hide {
@@ -54,36 +48,6 @@
  background-color: #F67E7D;
 }
 
-@keyframes firstnotif {
-    0% {top:0px;}
-    10% {top:78px;}
-  25%  {top:78px;}
-  50%  {top:78px;}
-  75%  {top:78px;}
-  90% {top:78px;}
-  100% {top:0px;}
-}
-
-@keyframes secondnotif {
-    0% {top:0px;}
-    10% {top:89px;}
-  25%  {top:89px;}
-  50%  {top:89px;}
-  75%  {top:89px;}
-  80% {top:89px;}
-  100% {top:0px;}
-}
-
-
-@keyframes thirdnotif {
-    0% {top:0px;}
-    10% {top:91px}
-  25%  {top:91px;}
-  50%  {top:91px;}
-  75%  {top:91px;}
-  90% {top:91px;}
-  100% {top:0px;}
-}
 
 .phoneborder {
   z-index: 474474;
