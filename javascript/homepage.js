@@ -15,6 +15,8 @@ function hasClicked() {
   }
 }
 
+document.addEventListener('DOMContentLoaded', hasClicked, false);
+
 function typeWriter() {
   localStorage.setItem("visited", "true");
   if(i == 0) document.getElementById("startbutton").style.animation = "spaghettiDown 0.3s ease-in-out";
