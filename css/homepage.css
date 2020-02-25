@@ -102,6 +102,15 @@ button:hover {
 		opacity: 1;
 	}
 }
+
+@keyframes spaghettiDown {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
 /*#fadein {
     opacity: 1;
     -webkit-transition: all 0.5s ease-in-out;
