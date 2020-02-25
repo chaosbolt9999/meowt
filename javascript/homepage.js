@@ -4,7 +4,22 @@ var x = document.getElementsByClassName("button");
 var j;
 var speed = 50;
 
+function hasClicked() {
+  if(localStorage.getItem("visited")) {
+    document.getElementById("start").innerHTML += txt;
+    document.getElementById("startbutton").style.display = "none";
+    for(j = 0; j < x.length; j++) {
+      x[j].style.display = "block";
+      x[j].style.opacity = 1;
+    }
+  }
+}
+
 function typeWriter() {
+  localStorage.setItem("visited", "true");
+  document.getElementById("startbutton").style.animation = "spaghettiDown 0.3s ease-in-out";
+  document.getElementById("startbutton").style.opacity = 0;
+  document.getElementById("startbutton").style.display = "none";
   if (i < txt.length) {
     document.getElementById("start").innerHTML += txt.charAt(i);
     i++;
