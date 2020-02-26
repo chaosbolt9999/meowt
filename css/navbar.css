@@ -2,6 +2,7 @@
 #cssmenu {
   background: #FFB997;
   width: auto;
+  cursor: url(catpointer.png), auto;
 
 }
 #cssmenu ul {
