@@ -2,7 +2,6 @@
 #cssmenu {
   background: #FFB997;
   width: auto;
-  cursor: url(catpointer.png), auto;
 
 }
 #cssmenu ul {
@@ -53,6 +52,7 @@
 }
 #cssmenu ul li a:hover {
   color: #333333;
+    cursor: url(catpointer.png), auto;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;
