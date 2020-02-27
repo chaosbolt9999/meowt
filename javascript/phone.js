@@ -104,9 +104,9 @@ var loadComments = function() {
   }
 }
 
-var newComment = function(comment) {
+var newComment = function() {
   var i = Number(0);
   while(localStorage.getItem("comment" + i.toString())) i++;
   i++;
-  addComment(comment);
+  addComment(document.getElementById("noocomment").value);
 }
