@@ -109,6 +109,8 @@ var loadComments = function() {
   }
 }
 
+document.addEventListener('DOMContentLoaded', loadComments, false);
+
 var newComment = function() {
   var i = Number(0);
   while(localStorage.getItem("comment" + i.toString())) i++;
