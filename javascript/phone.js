@@ -92,8 +92,13 @@ threeR
 }
 
 var addComment = function(comment) {
+  var currDate = new Date();
   document.getElementById("comments").innerHTML += comment;
   document.getElementById("comments").innerHTML += "<br>";
+  document.getElementById("comments").innerHTML += "<i>";
+  document.getElementById("comments").innerHTML += ("Submitted on " + today.getFullYear() + "/" + (today.getMonth()+1) + "/" + today.getDate() + " - " + today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds());
+  document.getElementById("comments").innerHTML += "</i>";
+  document.getElementById("comments").innerHTML += "<br><br>";
 }
 
 var loadComments = function() {
