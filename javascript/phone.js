@@ -92,7 +92,7 @@ threeR
 }
 
 var addComment = function(comment) {
-  var currDate = new Date();
+  var today = new Date();
   document.getElementById("comments").innerHTML += comment;
   document.getElementById("comments").innerHTML += "<br>";
   document.getElementById("comments").innerHTML += "<i>";
