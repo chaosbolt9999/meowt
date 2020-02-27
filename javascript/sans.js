@@ -1,5 +1,5 @@
 var hasClicked = function() {
-	if(localStorage.getItem("visited")) {
+	if(localStorage.getItem("beesited")) {
 			document.getElementById("boop").className += "beetlejuice";
 			document.getElementById("beep").className += "bestfriend";
 			document.getElementById("name").innerHTML = "";
@@ -12,7 +12,7 @@ var hasClicked = function() {
 document.addEventListener('DOMContentLoaded', hasClicked, false);
 
 var contactUs = function() {
-			localStorage.setItem("visited", "true");
+			localStorage.setItem("beesited", "true");
 			document.getElementById("boop").className += "beetlejuice";
 			document.getElementById("beep").className += "bestfriend";
 			document.getElementById("name").innerHTML = "";
