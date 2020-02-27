@@ -26,6 +26,7 @@
   display: inline-block;
   padding: 0;
   margin: 0;
+  cursor: url(catpointer.png), auto;
 }
 #cssmenu.align-right ul li {
   float: right;
@@ -52,7 +53,6 @@
 }
 #cssmenu ul li a:hover {
   color: #333333;
-    cursor: url(catpointer.png), auto;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;
