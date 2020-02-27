@@ -34,6 +34,9 @@ var hasVoted = function() {
 		return;	
 	}
 }
+
+document.addEventListener('DOMContentLoaded', hasVoted, false);
+
 var updatePoll = function() {
 	console.log("YAY I GOT CALLED\n");
 	console.log("Are you calling me??\n");
