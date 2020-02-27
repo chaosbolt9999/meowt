@@ -37,4 +37,5 @@ textarea, fieldset{
 .submit:hover {
     background-color: #833B61;
     color: #E09FAD;
+    cursor: url(catpointer.png), auto;
 }
