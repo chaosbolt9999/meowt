@@ -49,7 +49,7 @@
   -ms-transition: color .25s;
   -o-transition: color .25s;
   transition: color .25s;
-  cursor: url(catpointer.png), auto;
+  
 }
 #cssmenu ul li a:hover {
   color: #333333;
