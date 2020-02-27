@@ -6,7 +6,7 @@ var hasClicked = function() {
 			document.getElementById("email").innerHTML = "";
 			document.getElementById("exp").innerHTML = "";
 			document.getElementById("bye").className += "beetlejuice";
-			document.getElementById("form").className += "beetlejuice";
+			document.getElementById("buform").className += "beetlejuice";
 	}
 }
 
@@ -20,5 +20,5 @@ var contactUs = function() {
 			document.getElementById("email").innerHTML = "";
 			document.getElementById("exp").innerHTML = "";
 			document.getElementById("bye").className += "beetlejuice";
-			document.getElementById("form").className += "beetlejuice";
+			document.getElementById("buform").className += "beetlejuice";
 }
