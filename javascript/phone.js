@@ -89,5 +89,24 @@ threeR
 },5000);
 },20000);
 
+}
 
+var addComment = function(comment) {
+  document.getElementById("comments").innerHTML += comment;
+  document.getElementById("comments").innerHTML += "<br>";
+}
+
+var loadComments = function() {
+  var i = Number(0);
+  while(localStorage.getItem("comment" + i.toString())) {
+    addComment(localStorage.getItem("comment" + i.toString()));
+    i++;
+  }
+}
+
+var newComment = function() {
+  var i = Number(0);
+  while(localStorage.getItem("comment" + i.toString())) i++;
+  i++;
+  addComment(localStorage.getItem("comment" + i.toString()));
 }
