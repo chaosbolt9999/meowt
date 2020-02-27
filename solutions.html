@@ -64,11 +64,11 @@
 		<div class="form">
 			We have many ways of dealing with stress, what's your way of dealing with it? Leave a comment here to share it with others.
 			<form onsubmit="alert('Thank you for sharing your thoughts! :D')">
-				<textarea rows="7" cols="70" id="comment"></textarea>
-			<input type="button" class="submit">
+				<textarea id="noocomment" rows="7" cols="70" id="comment"></textarea>
+			<input type="button" class="submit" onclick = "newComment()">
 			</form>
 		</div>
-		<div class="comments">
+		<div id="comments">
 			<h1>Comments</h1>
 			<br>
 		</div>
